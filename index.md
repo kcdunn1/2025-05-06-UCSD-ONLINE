@@ -4,11 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "University of California, San Diego"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Zoom"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
-country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
-language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
-latitude: "32.879117"        # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "-117.235868"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+address: "[Zoom](https://ucsd.zoom.us/j/93408617288)"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 humandate: "May 6-9, 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "8:30am - 12:30pm"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2025-05-06      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -219,27 +215,7 @@ ACCESSIBILITY
 Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
-<p id="accessibility">
-  <strong>Accessibility:</strong>
-  We are committed to making this workshop
-  accessible to everybody.
-{% if online == "false" %}
-  The workshop organizers have checked that:
-<p>
-  <ul>
-    <li>The room is wheelchair / scooter accessible.</li>
-    <li>Accessible restrooms are available.</li>
-  </ul>
-{% endif %}
-</p>
-<p>We are dedicated to providing a positive and accessible learning environment for all.
-  We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information.
-  However, we do want to help create an inclusive, accessible experience for all participants.
-  We encourage you to share any information that would be helpful to make your Carpentries experience accessible.
-  To request an accommodation for this workshop, please fill out the
-  <a href="https://carpentries.typeform.com/to/B2OSYaD0">accommodation request form</a>.
-  If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
-</p>
+
 <p>
   <a href="https://glosario.carpentries.org/">Glosario</a> is a multilingual glossary
   for computing and data science terms. The glossary helps
